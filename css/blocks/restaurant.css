@@ -62,7 +62,7 @@
 
 .restaurant__advantages-list {
     margin: 0;
-    padding: 0 0 0 47px;
+    padding: 0 0 0 54px;
     display: flex;
     flex-direction: column;
     gap: 4px;
@@ -86,4 +86,5 @@
     background-color: #23252E;
     color: #FFFFFF;
     min-width: 219px;
+    border: none;
 }
