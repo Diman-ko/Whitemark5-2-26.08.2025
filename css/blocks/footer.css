@@ -2,7 +2,159 @@
     background-color: #23252E;
 }
 
-.footer__info {
+.footer__wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding: 40px 0 28px 0;
+    margin: 0;
+}
+
+.footer__info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.footer__location {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.footer__house-sales {
+    font-family: Foros, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.4);
+    margin: 0 0 12px;
+    padding: 0;
+}
+
+.footer__address {
+    font-family: Foros, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0 0 12px;
+    color: #FFFFFF;
+}
+
+.footer__build-a-route {
+    font-family: Foros, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: underline;
+}
+
+
+.footer__main-logo {
+    text-align: center;
+    padding: 0 0 40px;
+    margin: 0;
+}
+
+
+.footer__contacts-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0 0 16px;
+
+}
+
+.footer__contacts-item {
+    font-family: Foros, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: right;
+    color: #FFFFFF;
+}
+
+
+.footer__address-link {
+    font-family: Foros, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #FFFFFF;
+}
+
+
+/* footer__social*/
+.footer__social {
+    min-width: 398px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* footer__nav */
+.footer__nav {
+    width: 100%;
+    margin: 0 0 48px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__nav-list {
+    width: 100%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer__nav-item {
+text-align: center;
+}
+
+.footer__nav-link {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.footer__description {
+    max-width: 800px;
+    margin: 0 0 28px;
+    padding: 0;
+}
+
+.footer__descr {
+    margin: 0;
+    padding: 0;
+    font-family: Foros, "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.footer__logo {
+    min-width: 156px;
+    min-height: 16px;
 }
