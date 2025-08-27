@@ -1,10 +1,17 @@
 .restaurant {
     display: flex;
+    min-height: 700px;
 }
 
 .restaurant__wrapper {
     display: grid;
-    grid-template-columns: minmax(200px, 600px) minmax(0, 640px);
+    grid-template-columns: minmax(100px, 600px) minmax(0, 640px);
+}
+
+.restaurant__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .restaurant__descr {
@@ -17,29 +24,66 @@
 
 .reataurant__promo {
     padding: 0;
-    margin: 0;
     font-weight: 400;
     font-size: 60px;
     line-height: 70px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin: 0 0 32px;
 }
 
 
 .restaurant__advantages {
     display: flex;
     flex-direction: row;
+    margin: 0 0 60px;
+    align-items: center;
+}
+
+.restaurant__advantages-text {
+    margin: 0;
+    padding: 16px 15px 14px 15px;
+    max-width: 110px;
+    max-height: 110px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #3C52E6;
+}
+
+.restaurant__advantages-num {
+    font-size: 44px;
+    line-height: 40px;
+    letter-spacing: -0.1em;
 }
 
 .restaurant__advantages-list {
+    margin: 0;
+    padding: 0 0 0 47px;
     display: flex;
     flex-direction: column;
+    gap: 4px;
+}
+
+.restaurant__advantages-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
 }
 
 
-
-
-.restaurant__advantages-list {
-    display: flex;
-    flex-direction: column;
+.restaurant__btn {
+    margin: 0;
+    padding: 14px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: #23252E;
+    color: #FFFFFF;
+    min-width: 219px;
 }
